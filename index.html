@@ -4,9 +4,381 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Beauty Site</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container backgr">
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link change">Доставка</a>
+                    </li><!--
+                 --><li class="nav-item">
+                        <a href="#" class="nav-link change">Оплата</a>
+                    </li><!--
+                 --><li class="nav-item">
+                        <a href="#" class="nav-link change">Отзывы</a>
+                    </li><!--
+                 --><li class="nav-item">
+                        <a href="#" class="nav-link change">Вопрос - ответ</a>
+                    </li><!--
+                 --><li class="nav-item">
+                        <a href="#" class="nav-link change">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-logo">
+            <div class="header-logo-first">
+                <a href="#" class="logo-link">
+                    <img src="images/logo.png" alt="Logo of Beauty Site" class="logo-imm">
+                </a>
+                <h1 class="header-title">Beauty</h1>   
+                <div class="clearfix"></div> 
+            </div>
+            <div class="header-logo-second">
+                <p class="header-tel">
+                    <a href="tel:8(812)123-45-67" class="tel change">8(812)123-45-67</a>
+                </p>
+                <button type="button" class="header-button">
+                    Обратный звонок
+                </button>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="intro-navigation">
+            <ul class="intro-list">
+                <li class="intro-item">
+                    <a href="#" class="intro-link change">Парикмахерская</a>
+                </li><!--
+             --><li class="intro-item">
+                    <a href="#" class="intro-link change">Барбершоп</a>
+                </li><!--
+             --><li class="intro-item">
+                    <a href="#" class="intro-link change">Маникюр</a>
+                </li><!--
+             --><li class="intro-item">
+                    <a href="#" class="intro-link change">Педикюр</a>
+                </li><!--
+             --><li class="intro-item">
+                    <a href="#" class="intro-link change">Массаж</a>
+                </li><!--
+            --><li class="intro-item">
+                    <a href="#" class="intro-link change">Мебель</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="intro">
+            <div class="intro-body">
+                <div class="intro-body-action">
+                    <h2 class="intro-title">Супер кресло</h2>
+                    <p class="intro-text">
+                        Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее
+                    </p>
+                    <button class="intro-button">
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="goods-section backgr">
+            <div class="goods-container">
+                <h4 class="goods-title">Специальные предложения</h4>
+                <div class="goods-body-action">
+                    <figure>
+                        <a href="#" class="goods-link"><img class="goods-img" src="images/chair.png" alt="Зеленое парикмахерское кресло"></a>
+                    </figure><!--
+                 --><p class="goods-desc">Парикмахерское кресло «Норм» гидравлическое</p><!-- 
+                 --><h5 class="goods-price">9 900 ₽ </h5><!-- 
+                 --><a href="#" class="goods-button">Купить</a>
+                </div><!--
+             --><div class="goods-body-action">
+                    <figure>
+                        <a href="#" class="goods-link"><img class="goods-img" src="images/chair.png" alt="Зеленое парикмахерское кресло"></a>
+                    </figure><!--
+                 --><p class="goods-desc">Парикмахерское кресло «Норм» гидравлическое</p><!-- 
+                 --><h5 class="goods-price">9 900 ₽ </h5><!-- 
+                 --><a href="#" class="goods-button">Купить</a>
+                </div><!--
+             --><div class="goods-body-action">
+                    <figure>
+                        <a href="#" class="goods-link"><img class="goods-img" src="images/chair.png" alt="Зеленое парикмахерское кресло"></a>
+                    </figure><!--
+                 --><p class="goods-desc">Парикмахерское кресло «Норм» гидравлическое</p><!-- 
+                 --><h5 class="goods-price">9 900 ₽ </h5><!-- 
+                 --><a href="#" class="goods-button">Купить</a>
+                </div><!--
+             --><div class="goods-body-action">
+                    <figure>
+                        <a href="#" class="goods-link"><img class="goods-img" src="images/chair.png" alt="Зеленое парикмахерское кресло"></a>
+                    </figure><!--
+                 --><p class="goods-desc">Парикмахерское кресло «Норм» гидравлическое</p><!-- 
+                 --><h5 class="goods-price">9 900 ₽ </h5><!-- 
+                 --><a href="#" class="goods-button">Купить</a>
+                </div>
+            </div>            
+        </section>
+
+        <section class="services backgr">
+            <div class="services-container">
+                <div class="services-gift block">
+                    <div class="services-action">
+                        <h4 class="services-title">
+                            Получайте бонусы и подарки
+                        </h4>
+                        <p class="services-text bonus">
+                            Каждый месяц разыгрываем 10000 рублей для наших клиентов
+                        </p>
+                        <input class="email" type="email" name="email" placeholder="Введите e-mail" required>
+                    </div>
+                    <div class="letter">
+                        <img src="images/letter.png" alt="letter">
+                    </div>
+                    <div class="clearfix"></div>
+                </div><!--
+             --><div class="services-map block">
+                    <div class="services-action">
+                        <h4 class="services-title">
+                            Заходите к нам
+                        </h4>
+                        <p class="services-text shop">
+                            Более 300 магазинов по всей России
+                        </p>
+                        <button class="services-button">
+                            Подробнее
+                        </button>
+                    </div>
+                    <div class="car">
+                        <img src="images/car.png" alt="car">
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brands backgr">
+            <div class="brands-container">
+                <ul class="brands-list">
+                    <li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                           <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                          <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                         </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li><!--
+                 --><li class="brands-link">
+                        <figure>
+                            <a href="#"><img class="brand-img" src="images/mplus.png" alt="brands"></a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="goods-section backgr">
+            <div class="goods-container">
+                <h4 class="goods-title">Вы недавно смотрели</h4>
+                <div class="goods-body-action">
+                    <figure>
+                        <a href="#" class="goods-link"><img class="goods-img" src="images/chair.png" alt="Зеленое парикмахерское кресло"></a>
+                    </figure><!--
+                 --><p class="goods-desc">Парикмахерское кресло «Норм» гидравлическое</p><!-- 
+                 --><h5 class="goods-price">9 900 ₽ </h5><!-- 
+                 --><a href="#" class="goods-button">Купить</a>
+                </div><!--
+             --><div class="goods-body-action">
+                    <figure>
+                        <a href="#" class="goods-link"><img class="goods-img" src="images/chair.png" alt="Зеленое парикмахерское кресло"></a>
+                    </figure><!--
+                 --><p class="goods-desc">Парикмахерское кресло «Норм» гидравлическое</p><!-- 
+                 --><h5 class="goods-price">9 900 ₽ </h5><!-- 
+                 --><a href="#" class="goods-button">Купить</a>
+                </div><!--
+             --><div class="goods-body-action">
+                    <figure>
+                        <a href="#" class="goods-link"><img class="goods-img" src="images/chair.png" alt="Зеленое парикмахерское кресло"></a>
+                    </figure><!--
+                 --><p class="goods-desc">Парикмахерское кресло «Норм» гидравлическое</p><!-- 
+                 --><h5 class="goods-price">9 900 ₽ </h5><!-- 
+                 --><a href="#" class="goods-button">Купить</a>
+                </div><!--
+             --><div class="goods-body-action">
+                    <figure>
+                        <a href="#" class="goods-link"><img class="goods-img" src="images/chair.png" alt="Зеленое парикмахерское кресло"></a>
+                    </figure><!--
+                 --><p class="goods-desc">Парикмахерское кресло «Норм» гидравлическое</p><!-- 
+                 --><h5 class="goods-price">9 900 ₽ </h5><!-- 
+                 --><a href="#" class="goods-button">Купить</a>
+                </div>
+            </div>            
+        </section>
+
+        <section class="exra-links">
+            <div class="exra-links-container">
+                <nav class="exra-links-navigation">
+                    <ul class="exra-links-list">
+                        <li class="exra-links-item">
+                            <a href="#" class="exra-links-categ change">Популярные категории</a>
+                            <div class="exra-links-variant">
+                                <ul class="variant-list">
+                                    <li class="variant-item"><a href="#" class="variant-option change">Насадки</a></li><!--целенаправленооставила в один ряд,чтобы наглядней    
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Инструменты</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Гель-лаки</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Дизайн</a></li><!-- 
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Наращивание</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Оборудование</a></li>
+                                </ul>
+                            </div>
+                        </li><!--
+                    --><li class="exra-links-item">
+                            <a href="#" class="exra-links-categ change">Популярные категории</a>
+                            <div class="exra-links-variant">
+                                <ul class="variant-list">
+                                    <li class="variant-item"><a href="#" class="variant-option change">Насадки</a></li><!--целенаправленооставила в один ряд,чтобы наглядней    
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Инструменты</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Гель-лаки</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Дизайн</a></li><!-- 
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Наращивание</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Оборудование</a></li>
+                                </ul>
+                            </div>
+                        </li><!--
+                    --><li class="exra-links-item">
+                            <a href="#" class="exra-links-categ change">Популярные категории</a>
+                            <div class="exra-links-variant">
+                                <ul class="variant-list">
+                                    <li class="variant-item"><a href="#" class="variant-option change">Насадки</a></li><!--целенаправленооставила в один ряд,чтобы наглядней    
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Инструменты</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Гель-лаки</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Дизайн</a></li><!-- 
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Наращивание</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Оборудование</a></li>
+                                </ul>
+                            </div>
+                        </li><!--
+                     --><li class="exra-links-item">
+                            <a href="#" class="exra-links-categ change">Популярные категории</a>
+                            <div class="exra-links-variant">
+                                <ul class="variant-list">
+                                    <li class="variant-item"><a href="#" class="variant-option change">Насадки</a></li><!--целенаправленооставила в один ряд,чтобы наглядней    
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Инструменты</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Гель-лаки</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Дизайн</a></li><!-- 
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Наращивание</a></li><!--
+                                 --><li class="variant-item"><a href="#" class="variant-option change">Оборудование</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="footer-intro">
+            <div class="footer-container">
+                <ul class="footer-list">
+                    <li class="footer-soc">
+                        <a href="#" class="youtube social"></a>
+                    </li><!--
+                --><li class="footer-soc">
+                        <a href="#" class="vk social"></a>
+                    </li><!--
+                --><li class="footer-soc">
+                        <a href="#" class="fb social"></a>
+                    </li><!--
+                --><li class="footer-soc">
+                        <a href="#" class="insta social"></a>
+                    </li>
+                </ul>
+
+
+                <div class="footer-info">
+                    <p class="header-tel">
+                        <a href="#" class="tel change">8(812)123-45-67</a>
+                    </p>
+                    <button class="header-button">
+                        Обратный звонок
+                    </button>
+                </div>
+                <div class="clearfix"></div>
+
+            
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <footer>
+
+        <div class="footer">        
+            <p class="footer-name content">
+                Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты
+            </p>
+        </div>
+    </footer>
     
 </body>
 </html>
