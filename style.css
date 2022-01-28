@@ -166,7 +166,6 @@ color: #F13C6E;
     background-color: #FFFFFF;
     margin-right: 30px;
 }
-
 .goods-body-action:nth-of-type(4n) {
     margin-right: 0;
 }
@@ -214,7 +213,6 @@ color: #F13C6E;
     margin: auto;
     margin-bottom: 20px;
 }
-
 .goods-button:hover{
     opacity: 0.7;
 }
@@ -239,7 +237,6 @@ color: #F13C6E;
     max-width: 270px;
     margin: 35px auto 35px 40px;
 }
-
 .services-title {
     font-weight: bold;
     font-size: 18px;
@@ -269,7 +266,6 @@ color: #F13C6E;
     border-radius: 30px;
     padding: 9px 28px;
 }
-
 .services-button:hover {
     background: #FFFFFF;
     color: #F13C6E;
@@ -323,7 +319,6 @@ color: #F13C6E;
 .exra-links {
     background-color: #FFFFFF;
 }
-
 .exra-links-navigation {
     max-width: 1110px;
     margin-left: auto;
@@ -338,12 +333,10 @@ color: #F13C6E;
 .exra-links-item:last-of-type {
     margin-right: 0;
 }
-
 .exra-links-item .exra-links-variant{
     border-top:1px solid #EFEFEF;
     padding-top: 30px;
 }
-
 .exra-links-categ {
     font-weight: 500;
     font-size: 16px;
@@ -372,7 +365,6 @@ color: #F13C6E;
     display: block;
     float: left;
 }
-
 .footer-list .footer-soc{
     display: inline-block;
 }
@@ -418,19 +410,15 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-.footer-name {
+.footer-content {
     font-size: 12px;
     line-height: 14px;
     color: #828282;
     padding: 25px 0px;
-    display: block;
+}
+.name {
     float: left;
 }
-.footer-polit {
-    font-size: 12px;
-    line-height: 14px;
-    color: #828282;
-    padding: 25px 0px;
-    display: block;
+.polit {
     float: right;
 }
